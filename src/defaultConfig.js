@@ -1,4 +1,4 @@
-export default defaultConfig = {
+const defaultConfig = {
   simple: {
     mode: "image",
     property: {
@@ -16,3 +16,5 @@ export default defaultConfig = {
     },
   },
 }
+
+export default defaultConfig
