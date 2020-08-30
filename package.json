@@ -5,6 +5,11 @@
   "main": "src/index.js",
   "license": "MIT",
   "author": "Mattèo Gauthier <matteo.gauthier@gmail.com> (https://mattèo.dev)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MatteoGauthier/tailwindcss-mask"
+  },
+  "homepage": "https://github.com/owner/project#readme",
   "scripts": {
     "dev": "parcel serve demo/index.html --log-level 4 --out-dir demo/dist/ --no-cache --port 1234",
     "clean-cache": "rm -rf demo/.cache/ ; rm -rf demo/dist/"
