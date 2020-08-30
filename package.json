@@ -1,12 +1,13 @@
 {
-  "name": "tailwindcss-mask-image",
+  "name": "tailwindcss-mask",
   "description": "Tailwind plugin used to add mask css utility 😷",
   "version": "1.0.0",
   "main": "src/index.js",
   "license": "MIT",
   "author": "Mattèo Gauthier <matteo.gauthier@gmail.com> (https://mattèo.dev)",
   "scripts": {
-    "dev": "parcel serve demo/index.html --log-level 2 --out-dir demo/dist/ --cache-dir demo/.cache/ --port 1234"
+    "dev": "parcel serve demo/index.html --log-level 4 --out-dir demo/dist/ --no-cache --port 1234",
+    "clean-cache": "rm -rf demo/.cache/ ; rm -rf demo/dist/"
   },
   "devDependencies": {
     "@vue/component-compiler-utils": "^3.2.0",

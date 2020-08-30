@@ -1,16 +1,29 @@
 const { theme } = require("tailwindcss/defaultConfig")
 
 module.exports = {
-  purge: ["src/**/*.html", "src/**/*.vue", "src/**/*.js", "**/*.html"],
+  purge: false,
   theme: {
     extend: {
       fontFamily: {
         sans: ["Inter", ...theme.fontFamily.sans],
       },
+      colors: {
+        vue: "#555555"
+      }
     },
   },
   variants: {
     backgroundColor: ["responsive", "odd", "hover", "focus"],
   },
-  plugins: [require("../src/index.js")],
+  masks: {
+    grad: {
+      mode: "image",
+      property: {
+        type: "linear-gradient",
+        angle: "90deg",
+        colors: ["transparent", "#000000", "transparent", "#000000"],
+      },
+    },
+  },
+  // plugins: [require("../src/index.js")],
 }

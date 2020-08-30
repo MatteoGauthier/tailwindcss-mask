@@ -1,15 +1,42 @@
 <!DOCTYPE html>
-
 <html lang="en">
 
 <head>
 	<title>tailwindcss-mask</title>
-	<link rel="stylesheet" href="./assets/css/index.css" />
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+	<link href="./index.css" rel="stylesheet" />
 </head>
 
 <body>
-	<div id="app"></div>
-	<script src="./main.js"></script>
+
+	<div class="container mx-auto mt-64 space-y-24">
+		<h1 class="font-sans">Hey les bg</h1>
+		<div class="flex flex-col items-center space-y-8">
+			<code class="p-4 font-mono text-lg font-black text-purple-400 bg-gray-800 rounded">mask-image-simple</code>
+			<div class="flex w-full max-w-2xl space-x-1 mask-image-simple">
+				<div class="w-1/6 h-24 bg-orange-600 odd:bg-blue-800"></div>
+				<div class="w-1/6 h-24 bg-orange-600 odd:bg-blue-800"></div>
+				<div class="w-1/6 h-24 bg-orange-600 odd:bg-blue-800"></div>
+				<div class="w-1/6 h-24 bg-orange-600 odd:bg-blue-800"></div>
+				<div class="w-1/6 h-24 bg-orange-600 odd:bg-blue-800"></div>
+				<div class="w-1/6 h-24 bg-orange-600 odd:bg-blue-800"></div>
+			</div>
+		</div>
+		<div class="flex flex-col items-center space-y-8">
+			<code class="p-4 font-mono text-lg font-black text-purple-400 bg-gray-800 rounded">mask-image-simple-invert</code>
+			<div class="flex w-full max-w-2xl space-x-1 mask-image-simple-invert">
+				<div class="w-1/6 h-24 bg-orange-600 odd:bg-blue-800"></div>
+				<div class="w-1/6 h-24 bg-orange-600 odd:bg-blue-800"></div>
+				<div class="w-1/6 h-24 bg-orange-600 odd:bg-blue-800"></div>
+				<div class="w-1/6 h-24 bg-orange-600 odd:bg-blue-800"></div>
+				<div class="w-1/6 h-24 bg-orange-600 odd:bg-blue-800"></div>
+				<div class="w-1/6 h-24 bg-orange-600 odd:bg-blue-800"></div>
+			</div>
+		</div>
+
+	</div>
+
 </body>
 
 </html>
