@@ -11,7 +11,7 @@ A plugin that provides mask css utility (mask-image for the moment).
 ## Installation
 
 ```bash
-npm i tailwindcss-mask
+yarn add tailwindcss-mask -D
 ```
 
 ## Usage
