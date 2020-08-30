@@ -1,7 +1,7 @@
 {
   "name": "tailwindcss-mask",
   "description": "Tailwind plugin used to add mask css utility 😷",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "main": "src/index.js",
   "license": "MIT",
   "author": "Mattèo Gauthier <matteo.gauthier@gmail.com> (https://mattèo.dev)",
