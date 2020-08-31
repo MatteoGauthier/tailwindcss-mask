@@ -15,8 +15,7 @@
     "build": "next build demo",
     "export": "next export demo",
     "deploy": "npm run build && npm run export",
-    "start": "next start demo",
-    "publish-pkg": "np --no-tests"
+    "start": "next start demo"
   },
   "devDependencies": {
     "autoprefixer": "^9.8.6",
