@@ -1,4 +1,4 @@
-const defaultConfig = {
+module.exports = {
   simple: {
     mode: "image",
     property: {
@@ -17,4 +17,3 @@ const defaultConfig = {
   },
 }
 
-export default defaultConfig

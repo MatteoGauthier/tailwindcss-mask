@@ -23,6 +23,12 @@ plugins: [
 ],
 ```
 
+## Todos
+
+- [ ] Remove lodash
+- [ ] Custom mask
+- [ ] More mask features
+
 <!-- - **class names:** `bg-` followed by the gradient key. E.g. `bg-topaz`.
 - **type definitions:** Can be: `linear` (default), `radial`, `repeating-linear`, `repeating-radial`.
 - **color definitions:** `Array` such that:

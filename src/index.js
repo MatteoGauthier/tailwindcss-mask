@@ -1,7 +1,7 @@
-const { map, isPlainObject } = require("lodash")
-
-const defaultConfig = require('./defaultConfig')
-
+const defaultConfig = require("./defaultConfig")
+const { map } = require("lodash")
+const { isPlainObject } = require("./_lib/utils")
+// console.log(map)
 function parseConfigItem({ mode, property }) {
   if (mode == "image") {
     if (property.type == "linear-gradient" || "radial-gradients") {

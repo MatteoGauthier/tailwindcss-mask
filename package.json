@@ -11,20 +11,21 @@
   },
   "homepage": "https://github.com/owner/project#readme",
   "scripts": {
-    "dev": "parcel serve demo/index.html --log-level 4 --out-dir demo/dist/ --no-cache --port 1234",
-    "clean-cache": "rm -rf demo/.cache/ ; rm -rf demo/dist/",
+    "dev": "next dev demo",
+    "build": "next build demo",
+    "export": "next export demo",
+    "deploy": "npm run build && npm run export",
+    "start": "next start demo",
     "publish-pkg": "np --no-tests"
   },
   "devDependencies": {
-    "@vue/component-compiler-utils": "^3.2.0",
     "autoprefixer": "^9.8.6",
-    "parcel-bundler": "^1.12.4",
+    "lodash": "^4.17.20",
+    "next": "^9.5.2",
     "postcss": "^7.0.32",
-    "postcss-modules": "^3.2.2",
-    "tailwindcss": "^1.7.6",
-    "vue": "^2.6.12",
-    "vue-hot-reload-api": "^2.3.4",
-    "vue-template-compiler": "^2.6.12"
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "tailwindcss": "^1.7.6"
   },
   "peerDependencies": {
     "tailwindcss": "^1.7.6"
