@@ -2,8 +2,8 @@ docs
 node_modules
 .next
 
-out
-
+/out
+demo/out
 package-lock.json
 yarn.lock
 # Logs
