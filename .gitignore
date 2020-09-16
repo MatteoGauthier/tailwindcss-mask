@@ -2,6 +2,8 @@ docs
 node_modules
 .next
 
+out
+
 package-lock.json
 yarn.lock
 # Logs
@@ -100,3 +102,5 @@ demo/.dist/
 demo/.cache
 demo/dist
 
+
+.vercel
